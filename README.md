@@ -2,6 +2,9 @@
     <h1>osrc_download</h1>
 </div>
 
+> [!CAUTION]
+> Samsung has implemented CAPTCHA protection on their Opensource Releases website. `osrc_download` hasn't implemented a bypass mechanism for this yet, so this tool can't be used. As such, the repository is archived until the development is continued.
+
 Most of the time it's frustating that we need to download a releases from [Samsung OSRC](https://opensource.samsung.com), especially Kernel sources. And if we have a server that we build the source on, we need to upload it into there first. What a time-wasting, right?
 
 Well, this script solves it! With this script, you can download the release directly from your Terminal! No need to download-reupload anymore. Just run, choose the release, and download 😎
